@@ -1,1 +1,1 @@
-(()=>{"use strict";const t={title:"new",description:"sth new to do",dueDate:"02.02.2022",priority:"high"};console.log(t)})();
+(()=>{"use strict";const o=(o,e,t,s)=>({title:o,description:e,dueDate:t,priority:s}),e=o("new","sth new to do","02.02.2022","high");console.log(e);const t={name:"school",createToDoObject:o("old","sth","03.03.03","medium")};console.log(t),console.log(t.name)})();
